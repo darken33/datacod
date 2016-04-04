@@ -1,0 +1,144 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:578: checking for a BSD compatible install
+configure:631: checking whether build environment is sane
+configure:688: checking whether make sets ${MAKE}
+configure:734: checking for working aclocal
+configure:747: checking for working autoconf
+configure:760: checking for working automake
+configure:773: checking for working autoheader
+configure:786: checking for working makeinfo
+configure:874: checking for gnome-config
+configure:911: checking if /usr/bin/gnome-config works
+configure:919: checking for orbit-config
+configure:955: checking for orbit-idl
+configure:989: checking for working ORBit environment
+configure:1025: checking for gnorba libraries
+configure:1133: checking for gcc
+configure:1246: checking whether the C compiler (gcc  ) works
+configure:1262: gcc -o conftest    conftest.c  1>&5
+configure:1288: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:1293: checking whether we are using GNU C
+configure:1302: gcc -E conftest.c
+configure:1321: checking whether gcc accepts -g
+configure:1353: checking for POSIXized ISC
+configure:1376: checking for gcc
+configure:1489: checking whether the C compiler (gcc -g -O2 ) works
+configure:1505: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1531: checking whether the C compiler (gcc -g -O2 ) is a cross-compiler
+configure:1536: checking whether we are using GNU C
+configure:1564: checking whether gcc accepts -g
+configure:1599: checking for gcc option to accept ANSI C
+configure:1652: gcc  -c -g -O2  conftest.c 1>&5
+configure:1676: checking how to run the C preprocessor
+configure:1697: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1756: checking for ANSI C header files
+configure:1769: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1836: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1871: checking what warning flags to pass to the C compiler
+configure:1903: checking what language compliance flags to pass to the C compiler
+configure:1928: checking for pthread_create in -lpthread
+configure:1947: gcc -o conftest -g -O2 -Wall -Wunused    conftest.c -lpthread   1>&5
+configure:2152: checking for gtk-config
+configure:2187: checking for GTK - version >= 1.2.0
+configure:2288: gcc -o conftest -g -O2 -Wall -Wunused  -I/usr/lib/glib/include -I/usr/X11R6/include   conftest.c -L/usr/lib -L/usr/X11R6/lib -lgtk -lgdk -rdynamic -lgmodule -lglib -ldl -lXi -lXext -lX11 -lm  1>&5
+configure:2391: checking for SmcSaveYourselfDone in -lSM
+configure:2410: gcc -o conftest -g -O2 -Wall -Wunused   -I/usr/lib/glib/include -I/usr/X11R6/include  -L/usr/lib -L/usr/X11R6/lib -lgtk -lgdk -rdynamic -lgmodule -lglib -ldl -lXi -lXext -lX11 -lm conftest.c -lSM  -lICE  1>&5
+configure:2439: checking for X11/SM/SMlib.h
+configure:2449: gcc -E  -I/usr/lib/glib/include -I/usr/X11R6/include conftest.c >/dev/null 2>conftest.out
+configure:2487: checking for XpmFreeXpmImage in -lXpm
+configure:2506: gcc -o conftest -g -O2 -Wall -Wunused   -I/usr/lib/glib/include -I/usr/X11R6/include  -L/usr/lib -L/usr/X11R6/lib -lgtk -lgdk -rdynamic -lgmodule -lglib -ldl -lXi -lXext -lX11 -lm conftest.c -lXpm   1>&5
+configure:2538: checking for ranlib
+configure:2566: checking for working const
+configure:2620: gcc -c -g -O2 -Wall -Wunused   -I/usr/lib/glib/include -I/usr/X11R6/include conftest.c 1>&5
+configure: In function `main':
+configure:2594: warning: unused variable `s'
+configure:2614: warning: unused variable `foo'
+configure:2582: warning: unused variable `zero'
+configure:2576: warning: unused variable `x'
+configure:2593: warning: `t' might be used uninitialized in this function
+configure:2611: warning: `b' might be used uninitialized in this function
+configure:2641: checking for inline
+configure:2655: gcc -c -g -O2 -Wall -Wunused   -I/usr/lib/glib/include -I/usr/X11R6/include conftest.c 1>&5
+configure: In function `main':
+configure:2651: warning: control reaches end of non-void function
+configure: At top level:
+configure:2651: warning: return-type defaults to `int'
+configure:2681: checking for off_t
+configure:2714: checking for size_t
+configure:2749: checking for working alloca.h
+configure:2761: gcc -o conftest -g -O2 -Wall -Wunused   -I/usr/lib/glib/include -I/usr/X11R6/include  conftest.c  1>&5
+configure: In function `main':
+configure:2757: warning: unused variable `p'
+configure:2782: checking for alloca
+configure:2815: gcc -o conftest -g -O2 -Wall -Wunused   -I/usr/lib/glib/include -I/usr/X11R6/include  conftest.c  1>&5
+configure: In function `main':
+configure:2811: warning: unused variable `p'
+configure:2984: checking for unistd.h
+configure:2994: gcc -E  -I/usr/lib/glib/include -I/usr/X11R6/include conftest.c >/dev/null 2>conftest.out
+configure:3023: checking for getpagesize
+configure:3051: gcc -o conftest -g -O2 -Wall -Wunused   -I/usr/lib/glib/include -I/usr/X11R6/include  conftest.c  1>&5
+configure:3076: checking for working mmap
+configure:3224: gcc -o conftest -g -O2 -Wall -Wunused   -I/usr/lib/glib/include -I/usr/X11R6/include  conftest.c  1>&5
+configure: In function `main':
+configure:3165: warning: implicit declaration of function `getpagesize'
+configure:3174: warning: implicit declaration of function `rand'
+configure:3175: warning: implicit declaration of function `umask'
+configure:3179: warning: implicit declaration of function `write'
+configure:3181: warning: implicit declaration of function `close'
+configure:3212: warning: implicit declaration of function `read'
+configure:3218: warning: implicit declaration of function `unlink'
+configure:3252: checking for argz.h
+configure:3262: gcc -E  -I/usr/lib/glib/include -I/usr/X11R6/include conftest.c >/dev/null 2>conftest.out
+configure:3252: checking for limits.h
+configure:3262: gcc -E  -I/usr/lib/glib/include -I/usr/X11R6/include conftest.c >/dev/null 2>conftest.out
+configure:3252: checking for locale.h
+configure:3262: gcc -E  -I/usr/lib/glib/include -I/usr/X11R6/include conftest.c >/dev/null 2>conftest.out
+configure:3252: checking for nl_types.h
+configure:3262: gcc -E  -I/usr/lib/glib/include -I/usr/X11R6/include conftest.c >/dev/null 2>conftest.out
+configure:3252: checking for malloc.h
+configure:3262: gcc -E  -I/usr/lib/glib/include -I/usr/X11R6/include conftest.c >/dev/null 2>conftest.out
+configure:3252: checking for string.h
+configure:3262: gcc -E  -I/usr/lib/glib/include -I/usr/X11R6/include conftest.c >/dev/null 2>conftest.out
+configure:3252: checking for unistd.h
+configure:3252: checking for sys/param.h
+configure:3262: gcc -E  -I/usr/lib/glib/include -I/usr/X11R6/include conftest.c >/dev/null 2>conftest.out
+configure:3292: checking for getcwd
+configure:3320: gcc -o conftest -g -O2 -Wall -Wunused   -I/usr/lib/glib/include -I/usr/X11R6/include  conftest.c  1>&5
+configure:3292: checking for munmap
+configure:3320: gcc -o conftest -g -O2 -Wall -Wunused   -I/usr/lib/glib/include -I/usr/X11R6/include  conftest.c  1>&5
+configure:3292: checking for putenv
+configure:3320: gcc -o conftest -g -O2 -Wall -Wunused   -I/usr/lib/glib/include -I/usr/X11R6/include  conftest.c  1>&5
+configure:3292: checking for setenv
+configure:3320: gcc -o conftest -g -O2 -Wall -Wunused   -I/usr/lib/glib/include -I/usr/X11R6/include  conftest.c  1>&5
+configure:3292: checking for setlocale
+configure:3320: gcc -o conftest -g -O2 -Wall -Wunused   -I/usr/lib/glib/include -I/usr/X11R6/include  conftest.c  1>&5
+configure:3292: checking for strchr
+configure:3320: gcc -o conftest -g -O2 -Wall -Wunused   -I/usr/lib/glib/include -I/usr/X11R6/include  conftest.c  1>&5
+configure:3292: checking for strcasecmp
+configure:3320: gcc -o conftest -g -O2 -Wall -Wunused   -I/usr/lib/glib/include -I/usr/X11R6/include  conftest.c  1>&5
+configure:3292: checking for strdup
+configure:3320: gcc -o conftest -g -O2 -Wall -Wunused   -I/usr/lib/glib/include -I/usr/X11R6/include  conftest.c  1>&5
+configure:3292: checking for __argz_count
+configure:3320: gcc -o conftest -g -O2 -Wall -Wunused   -I/usr/lib/glib/include -I/usr/X11R6/include  conftest.c  1>&5
+configure:3292: checking for __argz_stringify
+configure:3320: gcc -o conftest -g -O2 -Wall -Wunused   -I/usr/lib/glib/include -I/usr/X11R6/include  conftest.c  1>&5
+configure:3292: checking for __argz_next
+configure:3320: gcc -o conftest -g -O2 -Wall -Wunused   -I/usr/lib/glib/include -I/usr/X11R6/include  conftest.c  1>&5
+configure:3349: checking for stpcpy
+configure:3377: gcc -o conftest -g -O2 -Wall -Wunused   -I/usr/lib/glib/include -I/usr/X11R6/include  conftest.c  1>&5
+configure:3411: checking for LC_MESSAGES
+configure:3423: gcc -o conftest -g -O2 -Wall -Wunused   -I/usr/lib/glib/include -I/usr/X11R6/include  conftest.c  1>&5
+configure:3444: checking whether NLS is requested
+configure:3464: checking whether included gettext is requested
+configure:3483: checking for libintl.h
+configure:3493: gcc -E  -I/usr/lib/glib/include -I/usr/X11R6/include conftest.c >/dev/null 2>conftest.out
+configure:3510: checking for gettext in libc
+configure:3522: gcc -o conftest -g -O2 -Wall -Wunused   -I/usr/lib/glib/include -I/usr/X11R6/include  conftest.c  1>&5
+configure:3636: checking for msgfmt
+configure:3670: checking for dcgettext
+configure:3698: gcc -o conftest -g -O2 -Wall -Wunused   -I/usr/lib/glib/include -I/usr/X11R6/include  conftest.c  1>&5
+configure:3725: checking for gmsgfmt
+configure:3761: checking for xgettext
+configure:3801: gcc -o conftest -g -O2 -Wall -Wunused   -I/usr/lib/glib/include -I/usr/X11R6/include  conftest.c  1>&5
